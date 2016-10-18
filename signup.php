@@ -49,6 +49,7 @@
 		top:210px;
 		width:300px;
 		padding:10px;
+		}
 	</style>
 	</head>
 		<body bgcolor="#3E0D6B">
@@ -70,10 +71,10 @@
 		<center><input placeholder="E-mail Address" type="text"     class="email"/></center>
 		</div>
 		<div>
-		<center><input placeholder="Pick a password" type="text"     class="pass"/></center>
+		<center><input placeholder="Pick a password" type="password"     class="pass"/></center>
 		</div>
 		<div>
-		<center><input placeholder="Confirm Password" type="text"     class="conf"/></center>
+		<center><input placeholder="Confirm Password" type="password"     class="conf"/></center>
 		</div>
 		<div>
 		<center><input placeholder="Phone Number" type="tel"	class="phone"/></center>
@@ -81,6 +82,11 @@
 		<br><br><br><br><br><br><br><br><br><br><br><br><br>
 		<div>
 		<center><input type="submit"	value="Sign Up!"></center>
+		</div>
+		<br><br><br>
+		<div>
+		<center><input type="button" value="Go back home"
+		onclick="window.location.href='http://web.njit.edu/~bss46/forms/index.php'"/></center>
 		</div>
 		</form>
 		</body>
